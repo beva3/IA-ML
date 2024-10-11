@@ -30,4 +30,42 @@
 @_difference
 ------------
 	IA: concept general,
-	ML: outille method pour aateindre ce tpbjevtif
+	ML: outille method pour aateindre ce objectif,
+
+
++--------+
+|POURQUOI|
++--------+
+Exemple :
+	smartiPhone:
+		assistant vocal,
+		recinnaissance faciale,
+		recommandation de contenu,
+
+	Santee :
+		developper de nouveau medicaments,
+		ameliorree les diagnostique
+	Transport :
+		voiture autonome
+	...
+
++--------+
+|COMMENT |
++--------+
+Base :	
+	mathematiques:
+		algebre lineaire
+		statistique
+		probability
+		calcul numerique
+	programmation math, ..
+	
+	Project :
+		petit a petite
+	communoty
+
+Source : 
+	Google machine learning Crash Course
+	Kaggle
+	Fast.Ai
+		
