@@ -3,3 +3,31 @@
 | Machine learning et IA|
 +-----------------------+
 
+
+@_intelligence artificiel:
+-------------------------
+	capacity of machine a imiter les capacitee cognitive humaine,
+		resonner
+		resoudre des problem
+		prendre de decision
+		
+@_machine learning
+------------------
+	apprentissage automatique :
+		brache de l'IA
+	capacite de systeme informatique
+		d'apprendre 
+		de s'ameliorer 
+			...
+		a partir des data, sans etre explicitement programmer
+
+	exemple :
+		immaginer un enfant qui apprendre A connaitre le chat,
+			il voit de n chats different
+			observe leur caracteristique
+				petit a 2
+			il est capable de reconnaitre le chat meme s'il n'ai			    jamais vu de semblable
+@_difference
+------------
+	IA: concept general,
+	ML: outille method pour aateindre ce tpbjevtif
