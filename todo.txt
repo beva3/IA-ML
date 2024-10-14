@@ -69,3 +69,47 @@ Source :
 	Kaggle
 	Fast.Ai
 		
+=============================================================
+
+
++----------------------+
+|  DATA ANALYSTE       |
++----------------------+
+
+@Pourquoi:
+~~~~~~~~~~
+	+ impacte reel sur les decisions strategique des entreprise
+	Data ----> information exploitable
+	
+	+ COMPETENCE RECHERCHEES
+		beacoups des entreprise ont besois des Competence en data analyste
+	
+	OportunitE dans divers secteure
+		FINENCE
+		MARKETING
+		SANTE
+		...
+	+ EMPRENTISSAGE CONTINUE:
+		technologie authentique
+		nouvelle technologie
+	
+	+ RESOLUTOIN DE PROBLEMES
+		Ambiansy any @ math
+		
+	+ CURIOSITE
+		la curiositE est requis dans le data analyste,
+			vous ests curieux
+
+@ comment
+~~~~~~~~~~
+	+ FORMATION
+		statistique
+		machine learning
+		outils des visualisation ( logiciel)
+	
+	+ PROJECT PERSONNEL
+		mettre en pratique votre connaissance
+
+
+	
+	
