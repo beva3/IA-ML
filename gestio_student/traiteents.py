@@ -18,7 +18,7 @@ MAX_REQUIR={
 }
 
 def is_pass(note_student):
-    if note_student > 0.5*pd.DataFrame(MAX_REQUIR).sum(axis=1):
+    if note_student > 50:
         return True
     else : return False
 
@@ -27,6 +27,6 @@ def update_data(data_student):
     df = pd.DataFrame(data_student)
     df['somme'] = df[['attendence', 'assignment', 'project', 'exam']].sum(axis=1)
     
-    
+    df['is_pass'] = df['somme'].apply(is_pass)
 
     return df
