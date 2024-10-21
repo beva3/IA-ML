@@ -1,0 +1,7 @@
++------------------------------+
+|IA: intelligent artificielle  |
++------------------------------+
+
+1-QUOI
+2-POURQUOI
+3-COMMENT
