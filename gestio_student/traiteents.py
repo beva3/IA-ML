@@ -22,9 +22,9 @@ def is_pass(note_student):
         return True
     else : return False
 
-def update_data(data_student):
+def update_data(file_path):
     print("update")
-    df = pd.DataFrame(data_student)
+    df = pd.read_csv(file_path)
     df['somme'] = df[['attendence', 'assignment', 'project', 'exam']].sum(axis=1)
     
     df['is_pass'] = df['somme'].apply(is_pass)

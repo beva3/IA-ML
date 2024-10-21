@@ -1,7 +1,7 @@
 from traiteents import *
 
-
-print(update_data(data))
+file_path = './data.csv'
+print(update_data(file_path))
 # print(data)
 
 
