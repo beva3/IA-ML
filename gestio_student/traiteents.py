@@ -24,8 +24,10 @@ def is_pass(note_student):
 
 def update_data(file_path):
     print("update")
-    df = pd.read_csv(file_path)
-    df['somme'] = df[['attendence', 'assignment', 'project', 'exam']].sum(axis=1)
+    df = pd.read_csv(file_path) #read data in the flux
+
+    #select : 'attendence', 'assignment', 'project', 'exam'
+    df['somme'] = df[['attendence', 'assignment', 'project', 'exam']].sum(axis=1) 
     
     df['is_pass'] = df['somme'].apply(is_pass)
 
