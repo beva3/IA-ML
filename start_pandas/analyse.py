@@ -52,3 +52,7 @@ what it want to say?
 #axixs = 1: mamafa ny mitsangana
 df=df.drop('total',axis=1)
 print('Drop column total\n',df,'\n')
+
+#sort by label
+df = df.sort_values(by='name')
+print('Sort by name\n',df,'\n')
