@@ -20,3 +20,41 @@ print(column_sum)
 print('\n'*2,"column_sum = df.sum(axis=0)",'\n'*2)
 raw_sum = df[['attendence','assignment','project','exam']].sum(axis=1)
 print(raw_sum)
+
+
++----------------------------------------------------+
+Pandas : librerie en python, 
+    facilite les traitements de donner
+
+#fonctionnalite basic en pandas:
+    Lire un fichier CSV :
+        pd.read_csv()
+
+    ecrir dataframe dans en csv :
+        df.to_csv('path',index=False)
+    
+    show the first line: 
+        print(df.head())
+
+#sugsestion par geminie:
+    Premiers pas: 
+        Commencez par créer un DataFrame, 
+        qui est l'objet principal de Pandas. 
+        Il s'agit d'une structure de données bidimensionnelle, 
+        similaire à un tableur.
+
+    Exploration: Apprenez à 
+        sélectionner des colonnes, 
+        filtrer des lignes, 
+        calculer des statistiques descriptives, 
+        etc.
+
+    Manipulation: Découvrez comment 
+        modifier les données, 
+        ajouter de nouvelles colonnes, 
+        supprimer des lignes, 
+        etc.
+
+    Visualisation: 
+        Utilisez Matplotlib 
+            pour créer des graphiques à partir de vos DataFrames.
