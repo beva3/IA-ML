@@ -16,3 +16,8 @@ print(df)
 print('\n',
       'labels colums\n')
 print(df.columns)
+
+#the first line
+print('\n',
+      'head():')
+print(df.head(),'\n')
