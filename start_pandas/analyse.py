@@ -40,11 +40,15 @@ max    93.000000  92.000000  91.00000  273.000000
 what it want to say?
 """
 
-student_name = df['name']
-print('NAME\n',student_name,'\n')
+# student_name = df['name']
+# print('NAME\n',student_name,'\n')
 
-note_math = df['math']
-print('MATH\n',note_math,'\n')
+# note_math = df['math']
+# print('MATH\n',note_math,'\n')
 
-total_ok = df[df['total'] > 250]
-print('TOTAL >250\n',total_ok,'\n')
+# total_ok = df[df['total'] > 250]
+# print('TOTAL >250\n',total_ok,'\n')
+
+#axixs = 1: mamafa ny mitsangana
+df=df.drop('total',axis=1)
+print('Drop column total\n',df,'\n')
