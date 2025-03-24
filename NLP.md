@@ -56,3 +56,4 @@ NLP works in **3 main steps**:
 **Output**: "Why don’t scientists trust atoms? Because they make up everything!"  
 
 ---
+https://youtu.be/fLvJ8VdHLA0 : how nlp work, you can chec it out, so use a summarize ai to learn fastly
