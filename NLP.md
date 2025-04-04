@@ -73,3 +73,85 @@ The video explains **Natural Language Processing (NLP)** in a **simple and pract
 - It works by **analyzing, breaking down, and structuring text**.  
 - Different **tools** like stemming, lemmatization, and entity recognition help in this process.  
 
+
+---
+
+**main NLP stages**
+Now let's break down the sentence: **"I play football"** 
+---
+
+### **1. Tokenization**  
+✂️ **Cut the sentence into small pieces (tokens).**  
+Each word becomes a token.  
+
+✅ Example:  
+**Input**: "I play football"  
+**Output**: `["I", "play", "football"]`
+
+---
+
+### **2. Stemming**  
+🪓 **Cut words to their root form (not always perfect).**  
+
+✅ Example:  
+"playing", "played", "plays" → **"play"**  
+But: "football" stays the same (already simple)  
+
+**Tokens**: `["I", "play", "football"]`  
+(No change here because words are already simple.)
+
+---
+
+### **3. Lemmatization**  
+📖 **Find the correct base word using grammar rules and dictionary.**  
+Better and smarter than stemming.  
+
+✅ Example:  
+"playing" → "play"  
+"better" → "good"  
+Here:  
+- "I" → "I"  
+- "play" → "play"  
+- "football" → "football"  
+
+**Output**: Same as original in this case.
+
+---
+
+### **4. Part of Speech Tagging (POS Tagging)**  
+🏷️ **Tell what kind of word each token is.**  
+(noun, verb, pronoun, etc.)
+
+✅ Example:  
+- "I" → **Pronoun**  
+- "play" → **Verb**  
+- "football" → **Noun**
+
+**Output**:  
+`[("I", pronoun), ("play", verb), ("football", noun)]`
+
+---
+
+### **5. Named Entity Recognition (NER)**  
+🔍 **Find special names (people, places, things).**  
+It checks if any word is a **famous name**, **city**, **organization**, etc.  
+
+✅ Example:  
+- "I" → not an entity  
+- "play" → not an entity  
+- "football" → could be **a sport**, but not a named entity like "FIFA"
+
+**Output**: No named entity found.
+
+---
+
+🎯 **Final Recap for "I play football":**
+
+| Step              | Output                             |
+|-------------------|-------------------------------------|
+| Tokenization      | `["I", "play", "football"]`         |
+| Stemming          | `["I", "play", "football"]`         |
+| Lemmatization     | `["I", "play", "football"]`         |
+| POS Tagging       | `[("I", pronoun), ("play", verb), ("football", noun)]` |
+| Named Entity Rec. | No named entity                    |
+
