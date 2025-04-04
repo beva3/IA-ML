@@ -57,3 +57,19 @@ NLP works in **3 main steps**:
 
 ---
 https://youtu.be/fLvJ8VdHLA0 : how nlp work, you can chec it out, so use a summarize ai to learn fastly
+overview ot this video :
+### **Main Goal of the Video**  
+The video explains **Natural Language Processing (NLP)** in a **simple and practical way**. The main goal is to help viewers understand:  
+
+1. **What NLP is** – Making computers understand and process human language.  
+2. **Why NLP is important** – It helps in tasks like translation, chatbots, sentiment analysis, and spam detection.  
+3. **How NLP works** – It converts unstructured text (human speech) into structured data that computers can process.  
+4. **Key NLP Techniques** – Tokenization, stemming, lemmatization, part-of-speech tagging, and named entity recognition.  
+5. **Real-world Applications** – Machine translation, virtual assistants (like Siri, Alexa), and detecting spam or sentiment in text.  
+
+### **Simple Summary**  
+- NLP **translates** human language into a format computers understand.  
+- It is used in **AI applications** like chatbots, voice assistants, and translation.  
+- It works by **analyzing, breaking down, and structuring text**.  
+- Different **tools** like stemming, lemmatization, and entity recognition help in this process.  
+
