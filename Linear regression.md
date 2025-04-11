@@ -219,3 +219,6 @@ But here, we use a **new cost function** called **log loss**
 | Cost function            | MSE (squared error)    | Log Loss                 |
 
 ---
+
+
+fanazavana : https://youtu.be/CtsRRUddV2s
