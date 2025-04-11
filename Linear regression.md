@@ -138,3 +138,84 @@ You have this data:
 So the idea is:  
 ✅ Use some data to **learn**  
 ✅ Use the rest to **test** (check prediction)
+
+
+**régression logistique** :
+
+---
+
+### 🔷 What is **logistic regression**?
+
+It is a **linear model** like linear regression,  
+👉 but it is used for **classification**, not prediction of a number.
+
+---
+
+### 🔷 When to use it?
+
+Use logistic regression when:
+- Your result (**y**) is **yes or no**,  
+- Example: "Will the person open the email?" → Yes (1) or No (0)
+
+This is called a **binary variable**: only two values (1 or 0)
+
+---
+
+### 🔷 How does it work?
+
+1. You have data → example:  
+   - `x1 = average shopping cart`  
+   - `x2 = number of emails opened`
+
+2. You want to know if the person will **open** the next email (yes = 1, no = 0)
+
+3. Like linear regression, it creates a **line**:  
+   `y = a1x1 + a2x2 + a0`  
+   But here, `y` must be **between 0 and 1**
+
+4. So we use a **special function**:  
+   ✅ It’s called the **sigmoid function**
+
+   This function **converts** any number into a value **between 0 and 1**
+
+   - If output is close to **1** → class is **yes (1)**  
+   - If output is close to **0** → class is **no (0)**
+
+---
+
+### 🔷 Formula (don’t worry, just look):
+
+#### Sigmoid:
+```
+      1
+-------------
+  1 + e^(-z)
+```
+where `z = a1x1 + a2x2 + a0`
+
+This gives us a **probability** (how likely something is to happen)
+
+---
+
+### 🔷 What is the goal?
+
+We want the model to:
+- **Give correct class** (1 or 0)
+- **Minimize error** (called **cost**)
+
+But here, we use a **new cost function** called **log loss**  
+(looks complicated, but same idea: punish wrong answers, reward good ones)
+
+---
+
+### 🔷 Summary (Easy Words):
+
+| Concept                   | Linear Regression     | Logistic Regression     |
+|--------------------------|------------------------|--------------------------|
+| Goal                     | Predict a number       | Predict a class (yes/no) |
+| Example                  | Predict salary         | Predict if email opened  |
+| Output                   | Any number             | Between 0 and 1          |
+| Special function         | None                   | Sigmoid                  |
+| Cost function            | MSE (squared error)    | Log Loss                 |
+
+---
