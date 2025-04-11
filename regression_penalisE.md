@@ -60,3 +60,20 @@ Voici ce que **tu dois savoir** sur la **régression pénalisée**, résumé de 
 - Tu peux l’utiliser pour **prédiction**, **classification**, etc.
 
 ---
+
+### 📌 Résumé visuel :
+
+```
+            Régression pénalisée
+                   │
+     ┌─────────────┴─────────────┐
+     │                           │
+ Régression Lasso         Régression Ridge
+     │                           │
+ Supprime certaines       Réduit toutes les
+ variables inutiles       variables (mais garde toutes)
+
+                   ↓
+               Elastic Net
+          Combine Lasso + Ridge
+```
