@@ -18,4 +18,6 @@ SVM tries to find the **best boundary (hyperplane)** that separates data points 
 - **Linear SVM**: When data is linearly separable.
 - **Non-linear SVM**: Uses **kernels** (like RBF, polynomial) to handle non-linearly separable data.
 
+#### **explanation in french : https://youtu.be/6JfWqirO3Ww?list=PLmBLgNjbSiTF0cl2UgKdyYcJ-AbzbvcsY there are 20 video playlist*** 
+
 ---
